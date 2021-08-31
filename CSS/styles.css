@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../IMG/imagens/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../IMG/imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../IMG/imagens/logo.png);
+    text-indent: -3000px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../IMG/imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a{
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegação a#home,
+body.brasil #navegação a#brasil,
+body.internacional #navegação a#internacional,
+body.fotos #navegação a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 60px;
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-colunas #primario{
+    width: 550px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 550px; 
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 720px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.caixa{
+    background: #f3f3f3 url(../IMG/imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../IMG/imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b12333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+
+img {
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px;
+}
+
+.titulo-principal {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 8px;
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #de003e;
+}
+
+#lista-noticias li{
+     padding: 2px;
+     border-bottom: 1px solid #ccc;
+     height: 62px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 4px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 00.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 00.7em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
